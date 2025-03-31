@@ -1,4 +1,0 @@
-with torch.no_grad():
-  output = model.generate(**inputs, max_length=496)
-
-print(processor.decode(output[0], skip_special_tokens=True))
